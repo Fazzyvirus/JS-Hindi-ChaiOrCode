@@ -25,7 +25,7 @@ const hunderds = 1000000
 
 // console.log(Math.min(3,5,7,9));
 // console.log(Math.max(3,5,7,9));
-// console.log(Math.random()); // agr range ni set krenge to value 0- or 1 k bich hi aegi
+// console.log(Math.random()); // agr range ni set krenge to value 0 or 1 k bich hi aegi
 // console.log(Math.random()*10 + 1); // minimum val ko 0 se bada krne k liye + 1 kr dia
 // console.log((Math.random()*10) + 1); 
 // console.log((Math.floor(Math.random()*10) + 1));
