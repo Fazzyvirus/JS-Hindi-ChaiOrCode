@@ -11,15 +11,37 @@ if (true) {
 
 // Nested Scope
 
-function one(){
-    const username = "faisal"
+// function one(){
+//     const username = "faisal"
 
-    function two(){
-        const website = 'Youtube'
-        console.log(username);
+//     function two(){
+//         const website = 'Youtube'
+//         // console.log(username);
+//     }
+//     // console.log(website);
+
+//     two()
+// }
+// one()
+
+if (true) {
+    const username = "faisal"
+    if (username === "faisal") {
+        const website = " Youtube"
+        // console.log(username + website);
     }
     // console.log(website);
-
-    two()
 }
-one()
+// console.log(username);
+
+// ++++++++++++++++++++ interesting +++++++++++++++++++
+console.log(addOne(5)); // returns the result
+function addOne(num) {
+    return num + 1
+}
+
+console.log(addTwo(5)); // it is giving error because we store the fun in variable
+
+const addTwo = function(num){
+    return num + 2
+}
